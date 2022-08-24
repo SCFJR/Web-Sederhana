@@ -86,7 +86,7 @@ ul li a:hover {
 }
 
 .header, .hero {
-	height: 250px;
-	background-image: url(img/codingan.jpeg) ;
+	height: 400px;
+	background-image: url("gambar/codingan.jpeg") ;
 	background-size: cover;
 }
