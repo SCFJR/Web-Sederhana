@@ -46,14 +46,14 @@ table {
 /*style*/
 body {
 	font: 16px/28px arial,centauri gothic;
-	background-color: #181818;
-	color: white;
+	background-color: #c5c5c5;
+	color: black;
 }
 
 .container {
-	width: 800px;
+	width: 830px;
 	margin: auto;
-	background-color: #070707;
+	background-color: #e5e5e5;
 }
 
 .header {
@@ -71,7 +71,7 @@ ul li {
 	display: inline-block;
 	font-size: 15px;
 	font-family: centaury gothic;
-	margin-top: 50px;
+	margin-top: 40px;
 	margin-right: 10px;
 }
 
@@ -81,12 +81,33 @@ ul li a {
 }
 
 ul li a:hover {
-	background-color: #5e5e5e;
+	background-color: lightskyblue;
 	color: white;
 }
 
-.header, .hero {
+.hero {
 	height: 400px;
 	background-image: url("Gambar/codingan.jpeg") ;
 	background-size: cover;
+	border-top: 4px solid #0088ff;
+}
+
+.judulutama {
+	font-weight: bold;
+	text-decoration-line: underline;
+	font-size: 27px;
+	font-family: Arial Rounded MT Bold;
+	padding-top: 35px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	letter-spacing: 1px;
+}
+
+.poin1 {
+	font-weight: bold;
+	font-size: 20px;
+	font-family: Trebuchet MS;
+	padding-left: 10px;
+	padding-bottom: 40px;
+	letter-spacing: 1px;
 }
