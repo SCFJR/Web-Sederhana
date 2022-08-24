@@ -89,7 +89,8 @@ ul li a:hover {
 	height: 400px;
 	background-image: url("Gambar/codingan.jpeg") ;
 	background-size: cover;
-	border-top: 4px solid #0088ff;
+	border-top: 4px solid #000d6d;
+	border-bottom: 4px solid #000d6d;
 }
 
 .judulutama {
