@@ -63,7 +63,7 @@ body {
 	letter-spacing: 1px;
 	padding-bottom: 45px;
 	padding-left: 10px;
-	padding-top: 65px;
+	padding-top: 45px;
 }
 
 .topnavbar {
@@ -117,7 +117,7 @@ li a:hover {
 	background-image: url("Gambar/codingan.jpeg") ;
 	background-size: cover;
 	/* margin-top: 3px; */
-	border: 6px solid #04AA6D;
+	border: 4px solid #04AA6D;
 }
 
 
@@ -125,8 +125,8 @@ li a:hover {
 	font-weight: bold;
 	text-decoration-line: underline;
 	font-size: 27px;
-	font-family: Trebuchet MS;
-	padding-top: 120px;
+	font-family: Lucida Sans;
+	padding-top: 50px;
 	padding-bottom: 50px;
 	padding-left: 10px;
 	letter-spacing: 1px;
@@ -135,9 +135,33 @@ li a:hover {
 
 .poin1 {
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 25px;
 	font-family: Trebuchet MS;
 	padding-left: 10px;
-	padding-bottom: 40px;
+	padding-bottom: 30px;
 	letter-spacing: 1px;
+}
+
+h2 {
+	margin-bottom: 30px;
+	padding: 20px;
+	font-family: arial bold;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.content p{
+	padding-bottom: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: -30px;
+	text-align: justify;
+	text-transform: capitalize;
+	font-family: arial;
+	font-size: 15px;
+
+}
+
+i {
+	font-style: italic;
 }
