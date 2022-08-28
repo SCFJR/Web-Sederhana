@@ -231,10 +231,14 @@ h2 {
   font-size: 25px;
 }
 
+.content {
+  display: flex;
+  gap: 10px;
+}
+
 .main {
   width: 600px;
   box-sizing: border-box;
-  float: left;
 }
 
 .main p {
@@ -274,17 +278,12 @@ i {
   margin-bottom: -35px;
 }
 
-/*ClearFix*/
-.cf:before,
-.cf:after {
-  content: " "; /* 1 */
-  display: table; /* 2 */
-}
+@media screen and (max-width: 576px) {
+  .container {
+    width: 100%;
+  }
 
-.cf:after {
-  clear: both;
-}
-
-.cf {
-  *zoom: 1;
+  .content {
+    flex-direction: column;
+  }
 }
