@@ -200,10 +200,10 @@ i {
 /*Sidebar*/
 
 .sidebar {
-	width: 300px;
+	width: 310px;
 	height: 310px;
 	float: right;
-	padding-right: 40px;
+  padding-right: 20px;
 	padding-left: 20px;
 	padding-bottom: 20px;
 	padding-top: 20px;
@@ -230,6 +230,7 @@ i {
 }
 
 
+
 /*footer*/
 .footer {
   padding: 30px;
@@ -251,6 +252,15 @@ i {
     width: 100%;
   }
 
+
   .content {
     flex-direction: column;
   }
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+     width: 100%; 
+  }
+}
