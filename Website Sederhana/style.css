@@ -116,7 +116,7 @@ li a:hover {
 
 .hero {
   height: 450px;
-  background-image: url("Gambar/codingan.jpeg");
+  background-image: url("Gambar/vscodecoding.jpeg");
   background-size: cover;
   /* margin-top: 3px; */
   border: 4px solid #04aa6d;
@@ -164,7 +164,6 @@ h2 {
 
 .content {
   display: flex;
-  gap: 10px;
 }
 
 .main {
@@ -200,15 +199,11 @@ i {
 /*Sidebar*/
 
 .sidebar {
-	width: 310px;
+	width: 320px;
 	height: 310px;
 	float: right;
-  padding-right: 20px;
-	padding-left: 20px;
-	padding-bottom: 20px;
-	padding-top: 20px;
-	margin-top: 10px;
-	margin-left: -10px;
+  padding: 20px;
+	margin-top: 5px;
 	border-bottom: 2px solid black;
 }
 
@@ -229,7 +224,33 @@ i {
 	text-align: justify;
 }
 
+.socialbar {
+	height: 310px;
+}
 
+.socialbar .img1 {
+  width: 40px;
+  margin-top: 380px;
+  margin-left: -310px;
+  border-radius: 50%;
+  border: 2px solid #2f2f2f;
+}
+
+.socialbar .img2 {
+  width: 40px;
+  margin-top: 380px;
+  margin-left: 60px;
+  border-radius: 50%;
+  border: 2px solid #2f2f2f;
+}
+
+.socialbar .img3 {
+  width: 40px;
+  margin-top: 380px;
+  margin-left: 60px;
+  border-radius: 50%;
+  border: 2px solid #2f2f2f;
+}
 
 /*footer*/
 .footer {
