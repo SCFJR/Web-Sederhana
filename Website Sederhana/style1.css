@@ -55,8 +55,7 @@ body {
 }
 
 .form form {
-  margin-left: 60px;
-  margin-right: 60px;
+  justify-content: center;
 }
 
 
@@ -133,6 +132,6 @@ input[type=submit]:hover {
   color: white;
   font-size: 14px;
   margin-left: 20px;
-  margin-top: -23.5px;
+  margin-top: -23.3px;
   padding-bottom: 20px;
 }
